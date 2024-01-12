@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../one_page_website/css/one_page_website.css">
+    <title>Rollerskates</title>
+    <script src="./one_page_website.js"></script>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <div>
+            <div>
+                <a href="#home" class="link"><li>HOME</li></a>
+                <a href="#types" class="link"><li>TYPES</li></a>
+                <a href="#grid" class="link"><li>GALLERY</li></a>
+                <a href="#contact" class="link"><li>CONTACT</li></a>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVIGATION -->
+
+    <!-- HOME -->
+    <div id="home">
+        <div>
+            <h1>Roller Skating!</h1>
+            <p>Roller skating is the act of traveling on surfaces with roller skates. It is a recreational activity, a sport, and a form of transportation. Roller rinks and skate parks are built for roller skating, though it also takes place on streets, sidewalks, and bike paths.</p>
+        </div>
+    </div>
+    <!-- END HOME -->
+
+    <!-- TYPES -->
+    <div id="types">
+        <div>
+            <h1>Types of skates</h1>
+            <p>There are many types of Roller Skates, with various sub-categories. Depending on what your preference is you can choose from recreational or aggressive. You can go for 3, 4, or even 5 wheels base. There is something for everyone.</p>
+        </div>
+    </div>
+    <!-- END TYPES -->
+
+    <!-- PHOTO CONTAINERS -->
+    <!-- Container 1 -->
+    <table style="width:50%">
+        <tr>
+            <td><img src="./thumbnails/Quads.jpeg" alt="Quad-skates"></td>
+            <td>Quad-skates. Perfect for beginners. Easier to balance left and right. Harder to balance front to back. These will not give you much speed but are perfect for smooth surfaces. Tons of fun!</td>
+        </tr>
+    </table>
+    <!-- Container 2 -->
+    <table style="width:50%">
+        <tr>
+            <td><img src="./thumbnails/inline_3.jpeg" alt="Three-wheels inline skates"></td>
+            <td>Three-wheels base inline skates. Tricky to use as your center of gravity is higher and the ground-wheels surface is much smaller. When mastered, these skates will compensate you with speed and freedom of movement on most surfaces.</td>
+        </tr>
+    </table>
+    <!-- Container 3 -->
+    <table style="width:50%">
+        <tr>
+            <td><img src="./thumbnails/inline_4.jpeg" alt="Four-wheels inline skates"></td>
+            <td>Four-wheels base inline skates. More stable than 3 wheels. You sacrifice speed over control. Most popular, often chosen by newbies. Perfect for city exploring and daily exercising.</td>
+        </tr>
+    </table>
+    <!-- Container 4 -->
+    <table style="width:50%">
+        <tr>
+            <td><img src="./thumbnails/inline_5.jpeg" alt="Five-wheels inline skates"></td>
+            <td>Five-wheels base inline skates. Even more stability than 4 wheels. Fairly new and less common than other types. These are 3 and four wheels combined. Less control and turnability for better speed and grip on corners.</td>
+        </tr>
+    </table>
+    <!-- Container 5 -->
+    <table style="width:50%">
+        <tr>
+            <td><img src="./thumbnails/inline_speed.jpeg" alt="Inline speed skates"></td>
+            <td>Serious speed. Performance leaning skates. Used to attack long distances. Hardest to use.</td>
+        </tr>
+    </table>
+    <!-- Container 6 -->
+    <table style="width:50%">
+        <tr>
+            <td><img src="./thumbnails/Aggresive.jpeg" alt="Aggressive inline skates"></td>
+            <td>Skate park focused. Not usable on most surfaces. Flat wheels provide more balance, sacrificing speed. A lot of fun when used on perfectly smooth surfaces.</td>
+        </tr>
+    </table>
+    <!-- END PHOTO CONTAINERS -->
+
+    <!-- LIGHTBOX -->
+
+    <div  id="grid" class="grid">
+        <div class="image-container">
+            <img src="https://source.unsplash.com/400x400?ROLLERBLADES" alt="RANDOM SKTAING IMAGE 2" onclick="openLightbox('https://source.unsplash.com/400x400?ROLLERBLADES')">
+        </div>
+        <div class="image-container">
+            <img src="https://source.unsplash.com/400x400?SKATE" alt="RANDOM SKTAING IMAGE 3" onclick="openLightbox('https://source.unsplash.com/400x400?SKATE')">
+        </div>
+        <div class="image-container">
+            <img src="https://source.unsplash.com/400x400?SKATING" alt="RANDOM SKTAING IMAGE 3" onclick="openLightbox('https://source.unsplash.com/400x400?SKATING')">
+        </div>
+    </div>
+
+
+    <!-- RSVP -->
+    <section>
+        <div id="contact">
+            <div>
+                <h1>Contact Form</h1>
+                <div>
+                    <h2>If you have any questions regarding Roller Skating,<br />Do not hesitate to contact us!</h2>
+                    <form action=" " method="post">
+                        <input class="rsvp" type="text" placeholder="First Name">
+                        <input class="rsvp" type="text" placeholder="Last Name">
+                        <input class="rsvp" type="text" placeholder="Email Address">
+                        <input class="rsvp_large" type="text" placeholder="Your Question">
+                        <div class="form-sapcer">
+                            <label class="terms">Terms and Conditions</label>
+                        </div>
+                        <div>
+                            <input id="submitButton" type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- END RSVP -->
+</body>
+
+<footer>
+    <p>Author: Daniel Mieleniewski</p>
+    <p><a href="mailto:dmieleniewski2@gmail.com">dmieleniewski2@gmail.com</a></p>
+</footer>
+</html>
